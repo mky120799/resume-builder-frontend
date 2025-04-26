@@ -7,7 +7,7 @@ Create your own custom resume quickly with sections designed to impress recruite
 ## Live
 
 - This application is purely frontend application, collection of no data at all.
-- It is deployed on vercel [Live Link](https://resume-builder-anurag.vercel.app).
+- It is deployed on vercel [Live Link](https://resume-builder-frontend-inky.vercel.app).
 
 ## Table of Contents
 
@@ -132,7 +132,7 @@ Create your own custom resume quickly with sections designed to impress recruite
 
 ## Contributors
 
-- [ Anurag Affection ](https://github.com/anuragaffection)
+- [ Anurag Affection ](https://github.com/mky120799)
 - You are welcome to contribute here !
 
 ## License
