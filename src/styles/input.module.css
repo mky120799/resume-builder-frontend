@@ -1,0 +1,150 @@
+/* CSS of all input compoents  */
+/* all the colors coming from index.css  */
+
+.container {
+    background-color: var(--gray-900);
+    color: var(--gray-200);
+    padding: 1rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+}
+
+.title {
+    text-align: center;
+    color: var(--amber-500);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+
+.inputForm {
+    background-color: var(--gray-950);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    width: 90%;
+}
+
+@media (min-width: 768px) {
+    .inputForm {
+        width: 60%;
+    }
+}
+
+.labelInputWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.labelStyle {
+    margin-left: 8px;
+}
+
+.inputStyle {
+    background-color: var(--gray-800);
+    color: var(--gray-200);
+    height: 2.0rem;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.inputAreaStyle {
+    background-color: var(--gray-800);
+    color: var(--gray-200);
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.hrLine {
+    color: var(--amber-500);
+    background-color: var(--amber-500);
+    height: 2px;
+    margin-top: 2rem;
+    border: none;
+}
+
+.button {
+    color: var(--gray-950);
+    height: 3rem;
+    width: 40%;
+    border-radius: 0.5rem;
+    background-color: var(--cyan-600);
+    border: none;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--cyan-500);
+}
+
+.buttonWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonRemove {
+    display: flex;
+    color: var(--gray-200);
+    height: 3rem;
+    width: 40%;
+    border-radius: 0.5rem;
+    background-color: var(--red-700);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.buttonRemove:hover {
+    background-color: var(--red);
+}
+
+.buttonAdd {
+    color: var(--gray-200);
+    height: 3rem;
+    width: 40%;
+    border-radius: 0.5rem;
+    background-color: var(--blue-800);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttonAdd:hover {
+    background-color: var(--blue-700);
+}
+
+
+.inputStyleSkill {
+    background-color: var(--gray-800);
+    color: var(--gray-200);
+    height: 2.0rem;
+    width: 60%;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+.skillWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem
+}

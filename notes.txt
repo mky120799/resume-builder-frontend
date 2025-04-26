@@ -1,0 +1,152 @@
+installation 
+-- https://vitejs.dev/guide/
+-- vite 
+-- npm 
+-- npm install 
+-- npm run dev 
+
+----------------------------------
+-----------------------------------
+
+pages 
+-- Resume Template 
+-- MyResume 
+-- About
+
+Components 
+-- inputComponents 
+-- previewComponents
+-- Navbar
+-- Footer 
+
+Structure 
+-- Navbar 
+-- Home 
+-- Footer
+
+--------------------------------------
+--------------------------------------
+
+color code 
+-- black = #000000
+-- white = #ffffff
+
+-- gray-950 = #030712
+-- gray-900 = #111827
+-- gray-800 = #1f2937
+-- gray-200 = #f3f4f6
+
+-- lime-600 = #65a30d
+-- lime-400 = #a3e635
+
+-- red-700 = #b91c1c
+-- red-500 = #ef4444
+
+-- amber-700 = #a16207
+-- amber-500 = #f59e0b
+
+-- blue-700 = #1d4ed8
+-- blue-500 = #3b82f6
+
+-- cyan-600 = #0891b2
+-- cyan-500 = #06b6d4
+
+
+Color used in Bio (previewComponents)
+-- black = #000000 (subheading)
+-- gray-950 = #030712 ( h3 & inputBackground  )
+-- gray-900 = #111827 (smaller text)
+-- gray-200 = #f3f4f6 (color )
+-- blue-700 = #1d4ed8 (heading )
+
+
+---------------------------------------------------
+---------------------------------------------------
+
+Git command 
+-- git init 
+-- git remote add origin <link> 
+-- git add .
+-- git commit -m "updated" 
+-- git push origin master 
+-- git push origin <branchName> 
+-- git branch 
+-- git checkout -b <newBrach> 
+-- git switch 
+-- git merge <branchName>   
+-- git pull origin master 
+-- git pull origin <branchName>
+-- git fetch origin 
+-- git fetch origin master 
+-- git fetch origin <otherBanchName>
+
+Git command points to remember 
+-- before merging switch to master 
+
+
+---------------------------------------------------
+---------------------------------------------------
+
+
+React hook form 
+-- handleSubmit, register = useForm()
+-- validation 
+-- data stored in json format 
+-- either keep material ui or custom ui in a single file 
+-- 
+
+
+---------------------------------------------------
+---------------------------------------------------
+
+
+resources 
+-- https://blog.probirsarkar.com/fixing-react-router-issues-on-vercel-how-to-handle-client-side-routing-and-404-errors-c4fb78aa1af5
+-- https://www.npmjs.com/package/react-avatar-edit
+-- https://www.npmjs.com/package/react-avatar-editor
+-- https://github.com/MalharMane/Almabetter-Resume-Builder-Capstone-Project-frontend
+-- https://udithajanadara.medium.com/export-react-component-as-a-pdf-5afba8ba02ee
+-- https://mui.com/material-ui/react-tabs/
+-- https://react-hook-form.com/get-started#ReactNative
+-- https://docs.google.com/document/d/1saPBmnX5tmWocpVVgeRfo1UJ2QIWvGWO/edit?usp=sharing&ouid=106962188718050548981&rtpof=true&sd=true
+
+
+Explore 
+-- react-router vs react-router-dom 
+-- react-dom vs react-native 
+-- nth child in css 
+-- controlled vs uncontrolled component 
+-- redux vs react-redux vs redux-toolkit 
+-- useLocation() vs useParams() in react-router-dom 
+
+Learnings 
+-- Do not higher semantic meaning tag into smaller semantic tag meaning 
+-- like h1 cannot be in h2 tage 
+
+
+
+---------------------------------------------------
+---------------------------------------------------
+
+
+Next update
+-- delete resume functionality 
+-- restrict switching in filldetails component
+-- remove hex value of color with name 
+
+
+
+Error when no image found in localhost 
+-- Text unexpected behavior 
+-- selected === bio (in menu)           
+-- mui paper code in replace of paper props 
+-- blob:http://localhost:5173/0e3c6cdf-2b7b-43b0-ba7f-18843204b5bb net::ERR_FILE_NOT_FOUND
+-- ErrorBoundary code 
+
+
+
+
+Severity Vulnerability 
+-- 1 high due to react-hook-form 
+
+

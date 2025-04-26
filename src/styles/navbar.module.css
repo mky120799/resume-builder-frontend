@@ -1,0 +1,55 @@
+/* css of navbar components  */
+/* color coming from index.css */
+
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--black);
+    font-size: larger;
+    padding: 16px 32px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: large;
+    color: var(--amber-500);
+}
+
+.logoImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.logoWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    text-decoration: none;
+}
+
+.navLinksGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navEachLink {
+    margin-right: 1rem;
+    color: var(--cyan-500);
+    text-decoration: none;
+}
+
+.navEachLink:hover {
+    color: var(--cyan-400);
+}
+
+@media (min-width: 768px) {
+    .navEachLink {
+        margin-right: 3rem;
+    }
+}
