@@ -4,8 +4,8 @@ import resume_builder from '../assets/image.jpg'
 export const Details = {
     bio: {
         profile_image: resume_builder,
-        first_name: "Anurag",
-        last_name: "Affection",
+        first_name: "Sheela",
+        last_name: "Kumari",
         role: "Software Developer",
         description: "As Captain America, I aim to leverage my leadership skills and dedication to serve, transitioning into a Full Stack Developer role to contribute to technological advancements.",
     },
@@ -32,8 +32,8 @@ export const Details = {
             id: 1,
             project_name: "Resume Builder",
             tech_stack: "MERN & Tailwind",
-            github_link: "https://github.com/anuragaffection/resume_builder",
-            live_link: "https://resume-builder-anurag.vercel.app",
+            github_link: "https://github.com/mky120799?tab=overview&from=2025-05-01&to=2025-05-07",
+            live_link: "https://resume-builder-frontend-inky.vercel.app/",
             description: "A User Friendly Resume Builder app empowering users to craft professional resumes effortlessly."
         }
     ],
