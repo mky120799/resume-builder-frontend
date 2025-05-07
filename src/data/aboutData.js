@@ -39,14 +39,14 @@ const aboutData = {
   aboutDeveloper: {
     heading: "About Developer",
     details: [
-      "Anurag Affection",
+      "Mithilesh Yadav",
       {
         label: "Checkout Portfolio",
-        url: "https://anuragaffection.vercel.app/"
+        url: "https://portfolio-website-six-flax-75.vercel.app"
       },
       {
         label: "Email Me",
-        url: "mailto:contact@gklite.in"
+        url: "mky120799@gmail.com"
       }
     ]
   }

@@ -5,6 +5,7 @@ import { colors } from '../../utils/colors';
 
 // UploadImage components to upload image 
 const UploadImage = () => {
+
     const [image, setImage] = useState(null);
     const storedImage = localStorage.getItem('uploadedImage');
 
@@ -12,6 +13,7 @@ const UploadImage = () => {
         const file = e.target.files[0];
         setImage(file);
     };
+   
 
     const handleUpload = () => {
         localStorage.setItem('uploadedImage', URL.createObjectURL(image));

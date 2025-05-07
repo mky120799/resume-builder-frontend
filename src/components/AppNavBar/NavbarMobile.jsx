@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
 import { AppBar, Toolbar, IconButton } from '@mui/material'
 import { colors } from '../../utils/colors';
-import NavbarMenu from './NavbarMenu';
+
 import { Box } from '@mui/system';
 
 // this is navbar of mobile size devices 
@@ -57,7 +57,7 @@ function NavbarMobile({ handleDrawerToggle }) {
                     </NavLink>
 
                 </Toolbar>
-                <NavbarMenu />
+              
             </Box>
 
         </AppBar >

@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import resume_builder from '../../assets/image.jpg'
 import styles from '../../styles/navbar.module.css'
-import NavbarMenu from "../AppNavBar/NavbarMenu"
+
 // navbar for device of screen size greater than mobile size 
 function NavbarDesktop() {
     return (
@@ -23,7 +23,7 @@ function NavbarDesktop() {
             </div>
 
 
-            <NavbarMenu />
+            
 
         </div>
     )
