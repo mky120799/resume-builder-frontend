@@ -132,7 +132,7 @@ Create your own custom resume quickly with sections designed to impress recruite
 
 ## Contributors
 
-- [ Anurag Affection ](https://github.com/mky120799)
+- [ Mithilesh Yadav](https://github.com/mky120799)
 - You are welcome to contribute here !
 
 ## License
